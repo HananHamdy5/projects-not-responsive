@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    height: 100vh;
+background-image:url(about.jpg) ;
+ background-size: 100%; 
+background-repeat: no-repeat;
+
+}
+h1.web{
+    
+    color: rgb(255, 255, 255);
+    text-align: right;
+    position: absolute;
+    right: 19%;
+    top: 35%;
+    letter-spacing: 15px;
+    font-weight: 900;
+    font-size: 50px;
+    text-shadow: 10px 10px 5px rgb(195, 81, 195);
+   
+}
+
+h1.dev{
+   
+    color: white;
+    text-align: right;
+    position: absolute;
+    right: 3%;
+    top: 55%;
+    letter-spacing: 18px;
+    font-weight: 900;
+    font-size: 48px;
+    text-shadow: 10px 10px 5px rgb(195, 81, 195);
+}
+span{
+
+    color: rgba(85, 245, 245, 0.618);
+}
+
+
+li{
+letter-spacing: 4px;
+list-style: none;
+display: inline-block;
+padding: 15px;
+margin: 20px;
+
+}
+
+a{
+    padding-top: 20px ;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+   
+}
+
+a:hover{
+ color: rgb(176, 63, 191);
+}
+main{
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(145, 6, 169, 0.978), rgba(4, 138, 156, 0.655));
+}
+
+
+img.img1{
+    margin: 90px ;
+    height: 550px;
+    width: 400px;
+    opacity: .7;
+    box-shadow: 0 0 30px beige;
+}
+h1.about{
+    position: absolute;
+    right: 38%;
+    top: 820px;
+    font-weight: bold;
+    color: rgb(89, 0, 141); 
+    letter-spacing: 5px;
+    text-shadow: 5px 5px 5px rgba(228, 78, 255, 0.667) ;
+    text-decoration: underline;
+ 
+}
+.about:hover{
+    color: rgb(112, 26, 111);
+}
+p{
+
+    font-size: 20px;
+    line-height: 49px;
+    font-weight: bold;
+    color: rgb(38, 1, 59); 
+    text-shadow: 2px 0px 5px rgb(168, 5, 218) ;
+}
+div.proj{
+    height: 130vh;
+    background-image: linear-gradient(to right, rgba(4, 138, 156, 0.655), rgba(145, 6, 169, 0.978));
+}
+h1.latest{
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(50, 12, 111); 
+    letter-spacing: 5px;
+    text-shadow: 5px 5px 5px rgba(228, 78, 255, 0.667) ;
+    text-decoration: underline;
+}
+.latest:hover{
+    color: #9b25b6;
+}
+h1{
+    color: #44185a;
+}
+h3{
+    color: #3b0158;
+}
+h3:hover{
+    color: #6e03a9;
+}
+table.projects{
+    width: 100%;
+    height: 550px;
+    text-align: center;
+
+}
+#first{
+    width: 100%;
+    height: 400px;
+}
+#second{
+    width: 100%;
+    height: 400px;
+}
+#third{
+    width: 100%;
+    height: 400px;
+}
+img{
+    height: 500px;
+    width: 300px;
+}
+div.footer{
+height: 100vh;
+background-image: linear-gradient(to right,rgba(6, 70, 85, 0.715),rgb(108, 4, 146));
+}
+div.icon{
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, rgba(4, 138, 156, 0.655), rgba(145, 6, 169, 0.978));
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+a.icon{
+color: rgb(255, 255, 255);
+
+}
+h1.cont{
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(131, 186, 248); 
+    letter-spacing: 5px;
+    text-shadow: 5px 5px 5px rgba(228, 78, 255, 0.667) ;
+    text-decoration: underline;
+}
+form{
+    height: 200px;
+    width: 500px;
+
+}
+input,textarea{
+   margin: 30px;
+   padding: 10px;
+}
+#send{
+    margin: 70px;
+   background-image: linear-gradient(to left,rgb(208, 246, 255),rgb(240, 190, 255));
+   color: rgb(126, 0, 140);
+
+}
